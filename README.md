@@ -18,5 +18,15 @@ Train a **Graph Autoencoder** to reconstruct node features of jet graphs. Evalua
 
 ---
 
-## 📂 Repository Structure
+## 🚀 Setup in Google Colab
+
+To run this project in Google Colab, paste the following in the first code cell of each notebook:
+
+```python
+# Install PyTorch Geometric + extra tools
+!pip install -q torch-scatter -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+!pip install -q torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+!pip install -q torch-geometric
+!pip install -q open3d h5py seaborn tqdm
+
 

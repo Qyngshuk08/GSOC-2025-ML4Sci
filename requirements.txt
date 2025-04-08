@@ -1,0 +1,34 @@
+# Core ML & Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PyTorch Geometric and its dependencies
+torch-geometric>=2.4.0
+torch-scatter>=2.1.1
+torch-sparse>=0.6.17
+torch-cluster>=1.6.0
+torch-spline-conv>=1.2.2
+
+# Scientific Python stack
+numpy>=1.23.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=1.5.0
+
+# Jupyter and notebook
+jupyter
+notebook
+
+# Utilities and visualization
+tqdm>=4.65.0
+imageio
+Pillow
+
+# Optional: for Chamfer distance (comparison metric)
+open3d>=0.18.0
+
+# Optional: for loading .npz or .hdf5 datasets
+h5py
